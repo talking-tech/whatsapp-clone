@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+  font-family: 'Chilanka', cursive;
+  font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Chilanka', cursive;
+}

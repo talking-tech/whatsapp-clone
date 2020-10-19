@@ -1,0 +1,16 @@
+{
+  "name": "clone-whatsapp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "talking-tech <72455894+talking-tech@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "pusher": "^3.0.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
