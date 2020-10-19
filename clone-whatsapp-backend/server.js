@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import Messages from './dbMessages.js';
 import Pusher from 'pusher';
 import cors from 'cors';
+import connection_url from './db_credentials.js';
 
 
 //app config
@@ -23,7 +24,7 @@ app.use(express.json());
 app.use(cors());
 
 //DB Configure 
-const connection_url = 'mongodb+srv://admin:Yn6iwJFRfBFJRd8D@cluster0.yqop6.mongodb.net/clone-whatsapp?retryWrites=true&w=majority';
+
 mongoose.connect(connection_url,{
     useCreateIndex: true,
     useNewUrlParser: true,
